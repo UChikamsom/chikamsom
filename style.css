@@ -1,0 +1,223 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.home{
+    position: relative;
+}
+.bg-image{
+    height: 100vh;
+    overflow: hidden;
+}
+.bg-text{
+    position: absolute;
+    left: 350px;
+    top: 238px;
+    color: white;
+    text-align: center;
+}
+.bg-text h1{
+    margin: 0px 20px 40px 20px;
+    font-size: 50px;
+    
+}
+.bg-text span{
+    font-size: 60px;
+}
+.bg-text p{
+    font-size: 20px;
+    margin: 30px;
+}
+.bg-text button{
+    padding: 15px;
+    width: 150px;
+    font-size: 20px;
+    margin: 20px 5px;
+    border: 1px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.menu-container{
+    display: flex;
+    justify-content:center;
+    padding: 30px 10px 0px 20px;
+    
+}
+.menu-item-container h2{
+    padding-left: 18px;
+    text-decoration: underline 3px solid rgb(241, 150, 164);
+}
+.menu-items1{
+    display: flex;
+    margin-bottom: 20px;
+}
+.menu-items1 img{
+    margin: 0px 10px;
+    height: 200px;
+    padding: 2px 10px;
+    margin-top: 10px;
+    
+}
+.menu-items1 p{
+    text-align: center;
+    
+}
+.menu-items2{
+    display: flex;
+    
+}
+.menu-items2 img{
+    margin: 0px 10px;
+    height: 200px;
+    padding: 2px 10px;
+}
+.menu-items2 p{
+    text-align: center;
+}
+.menu-bar{
+    background-color: black;
+    height: 600px;
+    border: 1px black solid;
+    border-radius: 15px;
+    margin: 0px 35px;
+
+}
+.menu-bar a{
+    color: white;
+}
+.menu-bar i{
+    margin: 30px 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+.menu-bar div:hover{
+    background-color: rgb(241, 150, 164);
+    border-radius: 13px;
+}
+.menu-bar img{
+    padding: 10px;
+    margin: 15px 10px;
+    cursor: pointer;
+}
+.menu-button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-left: 42%;
+    margin-top: 13px;
+    cursor: pointer;
+}
+.copyright p{
+    font-size: 13px;
+    margin-top: 37px;
+    margin-left: 20px;
+}
+.cart-container h1{
+    margin-left: 25px;
+    text-decoration: underline 2px solid rgb(241, 194, 179);
+}
+.cart-item-container img{
+    border: 1px solid rgb(241, 194, 179);
+    border-radius: 100%;
+    width: 90px;
+    height: 80px;
+    margin: 20px; 
+}
+.cart-item-container{
+    background-color: rgb(241, 194, 179);
+    display: flex;
+    height: 490px;
+    border: 1px solid rgb(241, 194, 179) ;
+    border-radius: 8px;
+    width: 600px;
+    margin: 10px 25px;
+}
+.cart-items div{
+    margin: 30px 40px 45px 40px;
+    height:80px;
+}
+.cart-numbers div{
+    margin: 30px 40px 45px 40px;
+    height:80px;
+}
+.cart-numbers span{
+    background-color: white;
+    padding: 2px 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin: 10px;
+}
+.cart-icons div{
+    margin: 30px 40px 45px 40px;
+    height:80px;
+}
+.side-bar-container1{
+    background-color:rgb(241, 194, 179);
+    padding: 20px;
+}
+.side-bar-container1 h3{
+    margin: 5px 20px;
+    font-size: 25px;
+}
+.side-bar-container1 p{
+    margin: 25px;
+    font-size: 20px;
+}
+.side-bar-container1 p span{
+    padding-left: 20px;
+}
+.side-bar-container1 button{
+    padding: 10px;
+    width: 200px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.side-bar-container1 a{
+    padding-left: 35px;
+}
+.side-bar-container{
+    border: 1px solid rgb(241, 194, 179);
+    height: 480px;
+    margin: 50px 30px;
+    width: 300px;
+    border-radius: 5px;
+}
+.side-bar-container2{
+    padding: 10px;
+}
+.side-bar-container2 button{
+    padding: 10px;
+    width: 120px;
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 20px;
+    cursor: pointer;
+}
+.side-bar-container2 h3{
+    margin: 10px 25px;
+    font-size: 25px;
+}
+.side-bar-container2 input{
+    padding: 15px;
+    width: 250px;
+    margin: 20px;
+    font-size: 20px;
+    border: 1px solid rgb(241, 194, 179);
+    border-radius: 5px;
+}
+.copyright1 p{
+    font-size: 13px;
+    margin-top: 45px;
+    margin-left: 25px;
+}
